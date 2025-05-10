@@ -1,0 +1,835 @@
+/* global css start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+bady {
+    background: #8d8181;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3, h4, h5, h6, p, ul,li,a {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+/* global css end */
+
+/* mobile_menu */
+
+.mobile_menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 9;
+    width: 100%;
+}
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
+/* mobile_menu */
+
+.header-section {
+    background: #000;
+}
+
+.header-section .logo {
+    height: 100px;
+    width: 100px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul li {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li > ::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 0%;
+	background: white;
+	left: 0;
+	bottom: 0;
+    transition: 0.5s;
+}
+
+
+.menu ul li > :hover:after {
+	width: 100%;
+    transition: 0.5s;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 27px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+}
+
+.fa-solid.fa-arrow-down {
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.menu ul li:hover .fa-solid.fa-arrow-down{
+    transform: rotate(180deg);
+}
+
+
+/* sub-menu-item */
+.menu ul li .submenu {
+    display: none;
+    position: absolute;
+    background: #000000;
+    z-index: 9;
+    top: 50px;
+    font-size: 10px;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+
+}
+
+.card-text {
+    color: yellowgreen;
+}
+
+.banner-section {
+    background: url(../img/Gallery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.layer {
+    background: #11111099;
+    padding: 90px 0;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.text h1 {
+    font-family: serif;
+    font-style: italic;
+    font-size: 125px;
+    color: #fbfbfb;
+}
+
+.text p {
+    font-family: serif;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 40px 0;
+}
+
+/* our-courses */
+.our-courses-section {
+    padding: 90px 0;
+    background: linear-gradient(-45deg, rgb(24, 6, 94) 50%,transparent 50%);
+    box-shadow: 1px 1px 1px red 1px;
+}
+
+.our-courses-section .text-center {
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.card {
+	min-height: 636px;
+}
+
+.card-body {
+    transition: .20s all;
+    min-height: 150px;
+}
+
+.card-body img {
+    clip-path: polygon(19% 0, 100% 0, 100% 100%, 3% 100%, 0 20%);
+    transition: .20s all;
+}
+
+.card-body:hover img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);  
+}
+
+.card-body:hover {
+    box-shadow: 6px 7px 14px #ed080861;
+    transform: translate(2%, 0);
+}
+
+.card-body h3 {
+  font-size: 36px;
+  font-family: italic;
+  margin: 26px 0;
+}
+/* our-courses end*/
+
+/* our-teacher-section */
+
+.our-teacher-section {
+    padding: 90px 0;
+    background: linear-gradient(-180deg,  transparent 50%,rgb(24, 6, 94) 50%);
+}
+
+.our-teacher-section h2 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    color: rgb(23, 5, 64);
+    margin: 25px 0;
+}
+
+.our-teacher-section p {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(23, 5, 64);
+    margin-bottom: 150px;
+}
+
+.content {
+	background: #00cfffba;
+	padding: 20px;
+	box-shadow: 8px 9px #00dbff36;
+    transition: 1s all;
+    position: relative;
+}
+
+.content:hover {
+    box-shadow: 8px 9px transparent;
+}
+
+.content img {
+    height: 150px;
+    border-radius: 100%;
+    width: 150px;
+    border: 2px solid #161fa4d4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.content .content-text {
+    margin: 50px 0;
+}
+
+.content .content-text h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.content .content-text a {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+}
+
+.content .content-text button {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    margin: 25px auto;
+    padding: 5px 9px;
+    border: none;
+    text-transform: uppercase;
+    background: #0004ffab;
+    color: #fff;
+}
+
+/* our-teacher-section end*/
+
+/* about us-section */
+.about-us-section {
+    background-image: url(../img/aboutbd.jpg);
+    background-position: cover left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 90px 0 0 0;
+}
+
+.about-us-section h2 {
+    font-size: 126px;
+    font-weight: 900;
+    text-shadow: 0px 100px 0px #1418397a;
+    margin-bottom: 110px;
+    color: #0c0d26;
+    margin-top: 110px;
+}
+
+.about-text {
+    text-align: justify;
+    color: #fff;
+    font-size: 26px;
+    line-height: 37px;
+    letter-spacing: 3px;
+}
+
+
+.about-text::first-letter {
+    color: red;
+    font-size: 60px;
+    transform: rotateX('40deg');
+}
+
+.right-img {
+    display: block;
+    margin-right: auto;
+}
+
+.w-1000 {
+    width: 500px;
+    height: 550px;
+    margin-right: auto;
+    display: block;
+}
+/* about us-section end*/
+
+/*comments section css*/
+.img-size {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: block;
+}
+
+span {
+    font-size: 25px;
+    color: red;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+input [type="file"] {
+    display: block;
+    width: 100%;
+}
+
+.commentetors input {
+    margin-top: 15px!important;
+    display: block;
+}
+
+.reaction-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.commentetors ul {
+    margin: 0;
+    padding: 0;
+}
+
+.commentetors ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    color: #fff;
+}
+
+textarea {
+    width: 100%;
+    height: 350px;
+    background: rgb(208, 208, 208);
+    color: #fff;
+    font-weight: 900;
+    border: none;
+}
+
+textarea:focus {
+    border: none;
+}
+
+.card {
+    padding: 20px;
+}
+
+.commentetors ul li:hover{
+    transform: scale(1.2);
+}
+
+/*comments section css end*/
+
+/* footer-section */
+.footer-section {
+    background: linear-gradient(to top,#eee,#fff);
+    padding: 90px 0;
+}
+
+.footer-important-link h6 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer-important-link ul li {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.chatboat {
+    background-color: red;
+    position: fixed;
+    display: block;
+    z-index: 9999999;
+    bottom: 12%;
+}
+
+.chatboat img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+}
+/* footer-section css end */
+
+
+
+/*=======================================================================*/
+                        /* login page css */
+/*=======================================================================*/
+.login-section {
+    background: linear-gradient(160deg, black 50%, white 50%);
+    padding: 40px 0;
+}
+
+.login-box {
+    background: linear-gradient(-160deg, black 50%, white 50%);
+    display: block;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid wheat;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #000;
+    box-shadow: 0px 0px 11px #fdfdfd;
+    text-align: center;
+    transition: 1s;
+}
+
+.login-box:hover {
+    box-shadow: 0px 0px 11px #000000;
+    
+}
+
+.login-box input {
+    display: block;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+.login-box input::placeholder {
+    text-align: center;
+}
+
+.login-box input[type="submit"] {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+#forget{
+    display: inline-block;
+    font-size: 24px;
+    color: red;
+    font-style:  italic;
+    font-weight: 900;
+}
+
+#register {
+    color: brown;
+}
+
+
+/*=======================================================================*/
+                        /* login page css end*/
+/*=======================================================================*/
+
+
+/*=======================================================================*/
+                        /* Registration page css */
+/*=======================================================================*/
+.registration-section {
+    background: linear-gradient(150deg, black 50%, white 50%);
+    padding: 90px 0;
+    background-attachment: fixed;
+}
+
+.registration-form {
+    background: linear-gradient(45deg, rgb(34, 4, 105) 50%, rgb(0, 0, 0) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+.registration-form label {
+    background-color: transparent;
+}
+
+.registration-form input,.registration-form input::placeholder {
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    color:#ff0000;
+}
+
+.registration-form input[type="checkbox"]{
+    display: inline-block;
+}
+
+.registration-form [type="submit"] {
+    background: transparent;
+    border: 2px solid rgb(239, 2, 2);
+    padding: 10px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.registration-form label {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.registration-form span {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.back-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-coor {
+    background: red;
+}
+
+/*=======================================================================*/
+                        /* Registration page css end */
+/*=======================================================================*/
+
+
+/*=======================================================================*/
+                        /* Show more page css */
+/*=======================================================================*/
+.show_more_section {
+    background: url(../img/showmore.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.overlay {
+    background: #000000a1;
+    padding: 90px  0;
+    
+}
+
+.show_more_text {
+    display: block;
+    width: 450;
+    background: black;
+    padding: 40px;
+}
+
+.show_more_text p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+
+
+/* chatboat area start */
+/* .chatboat {
+    
+} */
+
+.messege-box {
+    display: none;
+}
+/* chatboad area end */
+
+/*=======================================================================*/
+                        /* Show more page css end */
+/*=======================================================================*/
+
+
+/*=======================================================================*/
+                        /* all user page css */
+/*=======================================================================*/
+.all_users_section {
+    background: white;
+    padding-top: 150px;
+}
+.all_users_section table th {
+    font-size: 20px;
+    color: black;
+}
+
+.all_users_section table td {
+    font-size: 15px;
+} 
+
+/*view section*/
+.view_section {
+    background: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%);
+}
+
+.fs-50 {
+    font-size: 50px;
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 45px;
+}
+
+.view {
+    background: rgb(24, 23, 23);
+    margin: 4px;
+    color: #fff;
+    padding: 3px;
+}
+
+.Edit {
+    background: rgb(53, 2, 173);
+    margin: 4px;
+    color: #fff;
+    padding: 3px;
+}
+
+.Delete {
+    background: rgb(61, 8, 8);
+    margin: 4px;
+    color: #fff;
+    padding: 3px;
+}
+
+
+
+/*=======================================================================*/
+                        /* all users page css  end*/
+/*=======================================================================*/
+
+
+
+/*=======================================================================*/
+                        /* teachers page css  start*/
+/*=======================================================================*/
+.teacher_section {
+    background: linear-gradient(150deg,black 50%, white 50%);
+    padding: 60px 0;
+  }
+
+  .teacher_section h2 {
+	text-align: center;
+	margin-bottom: 51px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 65px;
+}
+
+.teacher-box {
+    background: linear-gradient(149deg, red 34%, rgb(255, 255, 255) 24%);
+    border-radius: 12px;
+    padding: 62px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease-in-out;
+    min-height: 380px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .teacher-box:hover {
+    transform: translateY(-4px);
+  }
+
+  .teacher-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #cbd5e1;
+    margin-bottom: 15px;
+  }
+
+  .teacher-name {
+	font-size: 31px;
+	font-weight: 600;
+	color: #000;
+}
+
+.teacher-box h3 {
+    font-size: 25px;
+}
+
+.teacher-box a {
+	font-size: 20px;
+	display: inline-block;
+	margin: 20px 1px;
+}
+
+.teacher-box span {
+    color: #000;
+    margin-top: 15px;
+}
+/*=======================================================================*/
+                        /* all users page css  end*/
+/*=======================================================================*/
+
+/*=======================================================================*/
+                        /* forgot password page css  start*/
+/*=======================================================================*/
+.forget_section{
+    background: linear-gradient(154deg, black 50%, white 50%);
+    padding: 60px 0;
+}
+
+.forgot_body {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 12px 12px 0px black;
+	min-height: 300px;
+}
+
+.forgot_body form input {
+    padding: 5px;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 2px solid black;
+    transform: translate(0%, 100%);
+}
+
+.forgot_body form input[type="email"] {
+    width: 40%;
+    transition: all 0.5s ease;
+}
+
+.forgot_body form input[type="email"]:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #180764;
+    width: 80%;
+    background: #dedbdb;
+    padding: 5px;
+    text-align: center;
+}
+
+.forgot_body form input::placeholder {
+    text-align: center;
+    color: blue;
+}
+
+.forgot_body form input[type="submit"] {
+	outline: none;
+	border: none;
+	border-bottom: 3px solid #fb0707;
+	background: black;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 19px;
+    margin-top: 25px;
+}
+
+
+
+
+/*=======================================================================*/
+                        /* forgot password page css  start*/
+/*=======================================================================*/
+

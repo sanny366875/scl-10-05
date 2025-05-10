@@ -1,0 +1,467 @@
+
+
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	  .text h1 {
+    font-size: 32px;
+  }
+
+  .header-section {
+    display: none;
+  }
+
+  .text p {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+
+  .our-courses-section {
+    padding: 30px 0;
+  }
+
+  .our-courses-section .text-center {
+	  font-size: 35px;
+	  margin-bottom: 15px;
+  }
+
+  .card {
+    min-height: 450px;
+    margin: 10px 0;
+  }
+
+  .card-body h3 {
+    font-size: 25px;
+    margin: 6px 0 0 0;
+  }
+
+  .our-teacher-section {
+    padding: 30px 0;
+  }
+
+  .our-teacher-section h2 {
+    font-size: 24px;
+    margin: 16px 0;
+  }
+
+  .our-teacher-section p {
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+
+  .content {
+    padding: 15px;
+    margin: 0 0 100px 0;
+  }
+
+  .content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 35%;
+    top: 0;
+    transform: translate(50%, -50%);
+  }
+
+  .content .content-text a {
+    font-size: 19px;
+  }
+
+  .content .content-text h6 {
+    font-size: 20px;
+    margin: 2px 0;
+  }
+
+  .content .content-text button {
+    font-size: 10px;
+    margin: 15px auto;
+  }
+
+  .about-us-section h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px 100px 0px #1418397a;
+    margin-bottom: 110px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .about-text {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .w-1000 {
+    width: 250px;
+    height: 350px;
+  }
+
+
+}
+
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .text p {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+
+
+  .our-courses-section {
+    padding: 30px 0;
+  }
+
+  .our-courses-section .text-center {
+	  font-size: 35px;
+	  margin-bottom: 15px;
+  }
+
+  .card {
+    min-height: 450px;
+    margin: 10px 0;
+  }
+
+  .card-body h3 {
+    font-size: 25px;
+    margin: 6px 0 0 0;
+  }
+
+  .our-teacher-section {
+    padding: 30px 0;
+  }
+
+  .our-teacher-section h2 {
+    font-size: 24px;
+    margin: 16px 0;
+  }
+
+  .our-teacher-section p {
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+
+  .content {
+    padding: 15px;
+    margin: 0 0 100px 0;
+  }
+
+  .content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 35%;
+    top: 0;
+    transform: translate(50%, -50%);
+  }
+
+  .content .content-text a {
+    font-size: 19px;
+  }
+
+  .content .content-text h6 {
+    font-size: 20px;
+    margin: 2px 0;
+  }
+
+  .content .content-text button {
+    font-size: 10px;
+    margin: 15px auto;
+  }
+
+  .about-us-section h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px 100px 0px #1418397a;
+    margin-bottom: 110px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .about-text {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .w-1000 {
+    width: 250px;
+    height: 350px;
+  }
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   .text h1 {
+    font-size: 32px;
+  }
+
+  .text p {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+
+  .our-courses-section {
+    padding: 30px 0;
+  }
+
+  .our-courses-section .text-center {
+	  font-size: 35px;
+	  margin-bottom: 15px;
+  }
+
+  .card {
+    min-height: 450px;
+    margin: 10px 0;
+  }
+
+  .card-body h3 {
+    font-size: 25px;
+    margin: 6px 0 0 0;
+  }
+
+  .our-teacher-section {
+    padding: 30px 0;
+  }
+
+  .our-teacher-section h2 {
+    font-size: 24px;
+    margin: 16px 0;
+  }
+
+  .our-teacher-section p {
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+
+  .content {
+    padding: 15px;
+    margin: 0 0 100px 0;
+  }
+
+  .content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 35%;
+    top: 0;
+    transform: translate(50%, -50%);
+  }
+
+  .content .content-text a {
+    font-size: 19px;
+  }
+
+  .content .content-text h6 {
+    font-size: 20px;
+    margin: 2px 0;
+  }
+
+  .content .content-text button {
+    font-size: 10px;
+    margin: 15px auto;
+  }
+
+  .about-us-section h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px 100px 0px #1418397a;
+    margin-bottom: 110px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .about-text {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .w-1000 {
+    width: 250px;
+    height: 350px;
+  }
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .header-section {
+    display: none;
+  }
+
+  .text p {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+
+  .our-courses-section {
+    padding: 30px 0;
+  }
+
+  .our-courses-section .text-center {
+	  font-size: 35px;
+	  margin-bottom: 15px;
+  }
+
+  .card {
+    min-height: 450px;
+    margin: 10px 0;
+  }
+
+  .card-body h3 {
+    font-size: 25px;
+    margin: 6px 0 0 0;
+  }
+
+  .our-teacher-section {
+    padding: 30px 0;
+  }
+
+  .our-teacher-section h2 {
+    font-size: 24px;
+    margin: 16px 0;
+  }
+
+  .our-teacher-section p {
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+
+  .content {
+    padding: 15px;
+    margin: 0 0 100px 0;
+  }
+
+  .content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 35%;
+    top: 0;
+    transform: translate(50%, -50%);
+  }
+
+  .content .content-text a {
+    font-size: 19px;
+  }
+
+  .content .content-text h6 {
+    font-size: 20px;
+    margin: 2px 0;
+  }
+
+  .content .content-text button {
+    font-size: 10px;
+    margin: 15px auto;
+  }
+
+  .about-us-section h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px 100px 0px #1418397a;
+    margin-bottom: 110px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .about-text {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .w-1000 {
+    width: 250px;
+    height: 350px;
+  }
+
+
+  /* view Css */
+    .fs-50 {
+    font-size: 20px;
+    margin-top: 57px;
+    }
+  /* view Css */
+
+  /* edit css */
+    .registration-form label {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+    .registration-form [type="submit"] {
+    background: transparent;
+    border: 2px solid rgb(239, 2, 2);
+    padding: 10px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    width: 59%;
+    margin: auto;
+    }
+  /* edit css */
+
+
+  /* teachers css */
+    .teacher_section h2 {
+    font-size: 30px;
+  }
+
+    .teacher-name {
+    font-size: 19px;
+  }
+
+    .teacher-box h3 {
+    font-size: 13px;
+  }
+
+    .teacher-box span {
+    font-size: 15px;
+  }
+
+    .teacher-box a {
+    font-size: 16px;
+    margin: 3px 0px;
+  }
+  /* teachers css */
+
+  
+    
+}
